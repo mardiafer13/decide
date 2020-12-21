@@ -25,3 +25,8 @@ script:
       - martadiazfernandez1@gmail.com
     on_success: always
     on_failure: always
+deploy:
+  provider: heroku
+  app: egc-app-decide-martadf
+  strategy: git
+  api_key: 003aa1eb-767d-42e4-ae34-a40ddd193860
